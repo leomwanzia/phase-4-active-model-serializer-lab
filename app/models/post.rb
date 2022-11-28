@@ -5,4 +5,5 @@ class Post < ApplicationRecord
 
   def short_content
     "#{self.content[0..39]}..."
+  end
 end
